@@ -53,7 +53,7 @@ Here are a few steps below to get started:
 1) Follow the simple steps explained by Peter Jennings about how to start with ESP8266 using LUA code. It gets you from scratch to loading LUA code onto ESP module.
 2) Format the ESP8266 module to load fresh code.
 3) Download the LUA code from github repository  and load the files onto ESP8266 module.
-4) Make the connections between ESP8266 and 3D printer as shown in the image below or simply use the ESP8266-RAMPS adapter  
+4) Make the connections between ESP8266 and 3D printer as shown in the schematic or simply use the ESP8266-RAMPS adapter  
 5) There are 2 ways to get the IP address of your ESP module
 
 		a) Turn on your 3D printer, then connect ESP module to your 3D- printer (If you are using adapter just plug it on AUX-1). The IP address will appears on the status line of attached LCD.
