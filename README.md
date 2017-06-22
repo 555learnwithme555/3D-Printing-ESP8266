@@ -54,23 +54,21 @@ Here are a few steps below to get started:
 2) Format the ESP8266 module to load fresh code.
 3) Download the LUA code from github repository  and load the files onto ESP8266 module.
 4) Make the connections between ESP8266 and 3D printer as shown in the image below or simply use the ESP8266-RAMPS adapter  
- 
+5) There are 2 ways to get the IP address of your ESP module
 
- 
-There are 2 ways to get the IP address of your ESP module
-1) Turn on your 3D printer, then connect ESP module to your 3D- printer (If you are using adapter just plug it on AUX-1). The IP address will appears on the status line of attached LCD.
-2) If your printer doesn’t have the LCD, then connect ESP to PC using USB to Serial adapter and open serial terminal at 9600 baud rate.On restart module displays the IP address on the serial monitor.
-
+		a) Turn on your 3D printer, then connect ESP module to your 3D- printer (If you are using adapter just plug it on AUX-1). The IP address will appears on the status line of attached LCD.
+		b) If your printer doesn’t have the LCD, then connect ESP to PC using USB to Serial adapter and open serial terminal at 9600 baud rate.On restart module displays the IP address on the serial monitor.
 
 Note: Connect the ESP8266 module only after the 3D printer is turned on. Otherwise your printer may freeze due to garbage data communication.
 
-Repetier Host settings:
-1) Open the repetier host,
-2) Go to ‘printer settings’ 
-3) Select Connector as ‘TCP/IP connection’
-4) Copy the IP address you got from LCD/ serial terminal.
-5) Change port number to 9999
-6) Apply the changes and connect.
+6) Repetier Host settings
+
+		a) Open the repetier host,
+		b) Go to ‘printer settings’ 
+		c) Select Connector as ‘TCP/IP connection’
+		d) Copy the IP address you got from LCD/ serial terminal.
+		e) Change port number to 9999
+		f) Apply the changes and connect.
     
  
 Thats it, Now you can control/ print/ monitor your 3D printer on air.. Happy and hassle free printing .. :)
